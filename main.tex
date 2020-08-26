@@ -1,0 +1,106 @@
+\documentclass[10pt, a4paper]{article}
+    \usepackage[margin=0.9cm]{geometry}
+    \usepackage{array}
+    \usepackage{xcolor}
+    \usepackage{fontawesome}
+    \usepackage{enumitem}
+    \usepackage{hyperref}
+    \usepackage{titlesec}
+    \pagenumbering{gobble}
+    \titlespacing*{\section}{0pt}{0.25\baselineskip}{0.25\baselineskip}
+    \setlist[itemize]{noitemsep, topsep=0pt}
+    \newcolumntype{L}{>{\raggedleft}p{0.11\textwidth}}
+    \newcolumntype{R}{p{0.84\textwidth}}
+    \setlength{\parindent}{0pt}
+    \newcommand\vsep{\color{lightgray} \vrule width 0.5pt}
+    \newcommand\sect[1]{\section*{\hspace{.05cm} \Large\sc #1}}
+    \newcommand\itemizespace{\vspace{-0.65\baselineskip}}
+    \newcommand\tspace{\hfill}
+    \begin{document}
+        \begin{center}
+            \bfseries\huge\sc Sophie Thompson
+        \end{center}
+        \vspace{-0.5\baselineskip}
+        \begin{center}
+            \begin{tabular*}{0.75\textwidth}{@{\extracolsep{\fill}} ccc}
+                \faPhone \ \ +44 7984 391935 &
+                \faEnvelope \ \ \href{mailto:sophiet1400@gmail.com}{sophiet1400@gmail.com} &
+                \faGithub \ \ \href{https://github.com/sophiethompson1}{github.com/sophiethompson1}
+            \end{tabular*}
+            \begin{tabular*}{0.45\textwidth}{@{\extracolsep{\fill}} cc}
+                \faGlobe \ \ \href{https://sophiethompson.uk/}{sophiethompson.uk} &
+                \faLinkedinSquare \ \ \href{https://www.linkedin.com/in/sophiet1/}{linkedin.com/in/sophiet1}
+            \end{tabular*}
+        \end{center}
+        \vspace{-\baselineskip}
+        \sect{Education}
+            \begin{tabular}{L!{\vsep}R}
+                2018 - 2022 &\textbf{Imperial College London} \tspace MEng Computing
+                    \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                        \setlength{\itemindent}{-0.125in}
+                        \item Year 2: First-class honours with 84\% in lab projects and 82\% in Software Engineering Design
+                        \item Year 1: Upper Second class honours with 88\% in Mathematical Methods
+                        \itemizespace
+                    \end{itemize} \\
+                2011 - 2018 & \textbf{Westcliff High School for Girls} \tspace Sixth Form, and Secondary School
+                    \begin{itemize}[label=\raisebox{0.25ex}{\tiny$\bullet$}]
+                        \setlength{\itemindent}{-0.125in}
+                        \item A Level: A*A*A*A* in Maths, Further Maths, Chemistry, and Physics
+                        \vspace{-1.1\baselineskip}
+                    \end{itemize}
+            \end{tabular}
+        \sect{Work Experience}
+            \begin{tabular}{L!{\vsep}R}
+                2020 & \textbf{American Express} \smallskip
+
+                    American Express Software Engineer Summer Intern 
+                    \smallskip
+
+                    In a team of 7 we worked on a microservice in MARS (Modern Accounts Receivable Service), done in \textbf{Java} using \textbf{Spring}. The microservice was testing using \textbf{Chaos Engineering}, we killed services and tested that the services worked as usual. During my time at AmEx we completed 2 sprints, for a sprint I acted as Product Owner within our team. Being Product Owner meant taking on a leader role and monitoring the team's progress and effectiveness 
+                    \smallskip
+                    \\
+            \end{tabular}
+        \sect{Projects}
+            \begin{tabular}{L!{\vsep}R}
+                2020 & {\textbf{Unicompare}} \tspace Python \smallskip
+
+                    In a group of 4 we developed a webapp for prospective university students to compare universities in both social and academic aspects. The webapp was developed through numerous design iterations with multiple stakeholders. The project was written in Python using the Django web framework and some HTML/CSS   
+                    \smallskip
+                    \\
+                2020 & {\textbf{Optimising Compiler}} \tspace Java, ARM \smallskip
+
+                    A compiler for the simplified language WACC. This compiler was written in Java and is capable of translating WACC into ARM assembly code that can then run, giving the desired output ot the program. We expanded the basic compiler to include overloading variables and functions (based on parameters and/or return types).
+                    \smallskip
+                    \\
+
+                2019 & {\textbf{Pintos}} \tspace C \smallskip
+
+                    In this we work with threads and processes implementing a scheduler, system calls and virtual memory
+                    \smallskip
+                    \\
+
+                2019 & \href{https://github.com/sophiethompsonsp/TerminalSquares}{\textbf{Terminal Squares}} \tspace Java \smallskip
+
+                    Squares is a game that you get points by making squares. I made the game with gameplay options and an option of 2 human players or playing against an AI I designed    
+                    \smallskip
+                    \\
+
+                2019 & {\textbf{ARM Project}} \tspace C, ARM \smallskip
+
+                    writing an assembler and dissassembler in C,  writing some assembly code that was then run on our disassembler. Followed by an extension using a Raspberry Pi to make a binary numbers game
+                    \smallskip
+                    \\
+                
+            \end{tabular}
+        \sect{Skills \& Interests}
+            \begin{tabular}{L!{\vsep}R}
+                Programming &
+                    Comfortable with Python, C and Java.
+                    Also have various amounts of experience in other programming languages, including Haskell and JavaScript.
+                    My public projects are available on GitHub.
+                    \vspace{0.5\baselineskip} \\
+                 &
+                    Able to use standard programming utilities such as version control, CI/CD, and containerisation.
+                    \vspace{0.5\baselineskip} \\
+            \end{tabular}
+    \end{document}
