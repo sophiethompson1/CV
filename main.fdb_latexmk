@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1598487115 "/home/sophie/Desktop/latex/CV/main.tex" "/home/sophie/Desktop/latex/CV/main.pdf" "main" 1598487116
+["pdflatex"] 1601309581 "/home/sophie/Desktop/latex/CV/main.tex" "/home/sophie/Desktop/latex/CV/main.pdf" "main" 1601309583
   "/etc/texmf/web2c/texmf.cnf" 1598053257 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/sophie/Desktop/latex/CV/main.aux" 1598487116 662 b2b94621371df8d9296b8bf5bec1b851 ""
-  "/home/sophie/Desktop/latex/CV/main.tex" 1598487113 7093 2b4a23eeda1f4a761e79eaf412bf556e ""
+  "/home/sophie/Desktop/latex/CV/main.aux" 1601309582 662 b2b94621371df8d9296b8bf5bec1b851 ""
+  "/home/sophie/Desktop/latex/CV/main.tex" 1601309580 7085 b17886ad764afc7385a8e44a0833417c ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc" 1463430686 2679 32dd8ae231bf4a0752b98f62dc097183 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -65,13 +65,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1598055004 4770781 1ed1abab22da9c3e2cc82e4db562318b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1598055096 8257840 9411cec81bedf900a2c38ad858315ea7 ""
-  "main.aux" 1598487116 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
-  "main.out" 1598487116 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1598487113 7093 2b4a23eeda1f4a761e79eaf412bf556e ""
+  "main.aux" 1601309582 662 b2b94621371df8d9296b8bf5bec1b851 "pdflatex"
+  "main.out" 1601309582 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1601309580 7085 b17886ad764afc7385a8e44a0833417c ""
   (generated)
-  "/home/sophie/Desktop/latex/CV/main.pdf"
   "main.pdf"
-  "main.aux"
   "main.log"
-  "main.out"
   "/home/sophie/Desktop/latex/CV/main.log"
+  "main.aux"
+  "/home/sophie/Desktop/latex/CV/main.pdf"
+  "main.out"
